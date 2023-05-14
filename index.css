@@ -1,0 +1,262 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    background-color: rgb(238, 238, 238);
+}
+
+header{
+    width: 100%;
+    height: 110px; /*110px*/
+    background-color: #f5337c;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+header span{
+    color: white;
+    cursor: pointer;
+}
+
+header .imgHeaderLogo img{
+    width: 60px;
+    cursor: pointer;
+}
+
+
+header .navHeader span{
+    font-size: 13px;
+    margin-left: 10px;
+    transition: .3s;
+}
+
+header .navHeader span:hover{
+    color: rgba(255, 255, 0, 0.774);
+}
+
+header .imgHeader2{
+    cursor: pointer;
+    transition: .9s;
+}
+
+header .localizacao{
+    font-size: 17px;
+    cursor: pointer;
+}
+
+header .sign{
+    font-size: 16px;
+    background-color: white;
+    color: #f5337c;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+header .imgHeader2:hover{
+    transform: scale(1.10);
+}
+
+header button{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header button:hover{
+    color: rgba(255, 255, 0, 0.774);
+}
+
+.imgAniversario{
+    margin-top: 110px;
+    width: 100%;
+    overflow: hidden;
+    height: 480px;
+}
+
+.imgAniversario img{
+    width: 100%;
+}
+
+.sobreNos{
+    margin-left: 85px;
+}
+
+
+.sobreNos h2{
+    font-size: 45px;
+    background-color: rgb(255, 179, 14);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sobreNos h1{
+    font-size: 60px;
+
+    background-color: #f5337c;
+
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.sobreNos p{
+    color: rgb(77, 77, 77);
+    font-size: 18px;
+}
+
+.fabrica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ff1b72;
+}
+
+.fabrica img{
+    width: 880px;
+    max-width: 100%;
+}
+
+.fabrica iframe{
+    max-width: 100%;
+}
+
+.ceo{
+    margin-top: 20px;
+    background-color: #ff1b72;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.ceo img{
+    max-width: 100%;
+}
+
+.ceo h1{
+    letter-spacing: 1px;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+}
+
+.ceo p{
+    font-size: 20px;
+}
+
+
+.ceo span{
+    color: rgb(78, 78, 214);
+    transition: all .3s;
+}
+
+.ceo span:hover{
+    color: rgb(1, 41, 1);
+}
+
+.matriz{
+    background-color: rgba(255, 166, 0, 0.692);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.matriz img{
+    max-width: 100%;
+}
+
+.matriz h1{
+    margin-top: 110px;
+    margin-bottom: 30px;
+    font-size: 80px;
+}
+
+.matriz p{
+    padding: 6px;
+    background-color: #ff1b72;
+    border: 1px solid #f5337c;
+    border-radius: 30px;
+    font-size: 25px;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+
+.footer{
+    background-color: #ff1b72;
+    height: 360px;
+    display: block;
+}
+
+.footer img{
+    width: 55px;
+}
+
+.footer p{
+    background-color:  rgb(255, 190, 69); 
+    color: rgb(209, 33, 62);
+    margin-left: 40px;
+    border-radius: 40px;
+    padding: 6px;
+    width: 320px;
+    margin-left: 50px;
+    font-size: 20px;
+    padding: 25px;
+    cursor: pointer;
+
+}
+
+.footer .navFooter{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    background-color: #ff1b72;
+    color: white;
+    font-size: 25px;
+}
+
+.footer .navFooter span{
+    color: white;
+    font-size: 15px;
+}
+
+.footer .navFooter .footerimg1{
+    width: 170px;
+}
+
+.footer .navFooter .footerimg2{
+    width: 90px;
+    margin-right: 60px;
+}
+
+hr{
+    width: 95%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+
